@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+}
+body{
+    overflow-y: hidden;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+ background-color: #dddddd;
+}
+tbody {
+    display:block;
+    max-height:484px;
+    overflow-y:scroll;
+}
+thead, tbody tr {
+    display:table;
+    width:100%;
+    table-layout:fixed;
+}
+.display{
+    display: table !important;
+}
